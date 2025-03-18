@@ -12,10 +12,10 @@ bisal_grp = "https://t.me/Hari_Search"
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', 15671595''))
+    API_ID = int(getenv('API_ID', '15671595'))
     API_HASH = str(getenv('API_HASH', 'bb8f36f9c39a24c7f8b2acbc7ea8c60a'))
     BOT_TOKEN = str(getenv('BOT_TOKEN' , '7697237102:AAFqMGBY66aVK1-sAczjP_5ROpWf8Hd5CWk'))
-    name = str(getenv('name', 'HK_Streamx_Bit'))
+    name = str(getenv('name', 'HK_Streamx_Bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002210651858'))
